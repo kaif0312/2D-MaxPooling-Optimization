@@ -24,3 +24,5 @@ To compile the project, navigate to the `src` folder and use the following comma
 ```bash
 cd src
 g++ main.cpp naive.cpp naive2.cpp optimized_1.cpp optimized_2.cpp -o maxpooling
+./maxpooling
+```
