@@ -7,7 +7,6 @@
 #include "optimized_2.h"
 #include "naive2.h"
 #include "naive.h"
-// #include "naive_parallel.h"
 using namespace std;
 
 

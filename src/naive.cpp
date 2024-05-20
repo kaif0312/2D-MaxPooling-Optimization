@@ -25,29 +25,3 @@ vector<vector<int>> getKMax(const vector<vector<int>>& matrix, int k) {
     return result;
 }
 }
-
-// int main() {
-//     // Example matrix
-//     vector<vector<int>> matrix = {
-//         {1, 2, 3, 4, 5},
-//         {6, 7, 8, 9, 10},
-//         {11, 12, 13, 14, 15},
-//         {16, 17, 18, 19, 20},
-//         {21, 0, 23, 0, 25}
-//     };
-
-//     int k = 3; // Size of the kernel
-
-//     // Function call
-//     vector<vector<int>> result = naive::getKMax(matrix, k);
-
-//     // Print the result
-//     for (const auto& row : result) {
-//         for (int val : row) {
-//             cout << val << " ";
-//         }
-//         cout << endl;
-//     }
-
-//     return 0;
-// }

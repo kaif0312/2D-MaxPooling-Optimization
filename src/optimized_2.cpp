@@ -90,28 +90,3 @@ vector<vector<int>> maxSliding_2d_Window(vector<vector<int>>& v, int k) {
     return final;
 }
 }
-// int main() {
-//     // Example usage
-//     vector<vector<int>> matrix = {
-//         {1, 3, 1, 5},
-//         {2, 5, 1, 6},
-//         {7, 6, 6, 8},
-//         {4, 2, 1, 3},
-//         {1, 2, 3, 4}
-//     };
-//     int k = 2;
-
-//     vector<vector<int>> result = maxSliding_2d_Window(matrix, k);
-
-//     // Display result
-//     cout << "Maximum sliding 2D window:" <<endl;
-    
-//     for (auto& row : result) {
-//         for (int num : row) {
-//             cout << num << " ";
-//         }
-//         cout << endl;
-//     }
-
-//     return 0;
-// }
