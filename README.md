@@ -9,7 +9,6 @@ This project performs max pooling operations on a 2D matrix using different meth
 - `src/optimized_1.h` and `src/optimized_1.cpp`: Header and source files for the first optimized max pooling function.
 - `src/optimized_2.h` and `src/optimized_2.cpp`: Header and source files for the second optimized max pooling function.
 - `src/naive2.h` and `src/naive2.cpp`: Header and source files for the second naive max pooling function.
-- `src/naive_parallel.h`: Header file for the parallelized naive max pooling function (commented out in `main.cpp`).
 
 ## Requirements
 
